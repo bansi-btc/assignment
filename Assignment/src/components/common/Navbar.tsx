@@ -1,9 +1,9 @@
-import Logo from "../assets/KoinxLogo.png";
+import Logo from "../../assets/KoinxLogo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="wrapper shadow-lg shadow-[#1026490F]">
+    <div className="wrapper shadow-lg shadow-[#1026490F] hidden md:block">
       <div className="flex flex-row justify-between text-base items-center py-8 w-full herolike-wrapper">
         <Link to={"/"} className="py-1">
           <img src={Logo} alt="" className="" />
